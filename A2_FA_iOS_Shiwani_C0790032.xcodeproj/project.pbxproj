@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		F2C7B2AB25C7D0EB00A14608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2AA25C7D0EB00A14608 /* AppDelegate.swift */; };
 		F2C7B2AD25C7D0EB00A14608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2AC25C7D0EB00A14608 /* SceneDelegate.swift */; };
-		F2C7B2AF25C7D0EB00A14608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2AE25C7D0EB00A14608 /* ViewController.swift */; };
 		F2C7B2B225C7D0EB00A14608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7B2B025C7D0EB00A14608 /* Main.storyboard */; };
 		F2C7B2B525C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2B325C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld */; };
 		F2C7B2B725C7D0ED00A14608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C7B2B625C7D0ED00A14608 /* Assets.xcassets */; };
 		F2C7B2BA25C7D0ED00A14608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7B2B825C7D0ED00A14608 /* LaunchScreen.storyboard */; };
+		F2C7B2C425C7D2D200A14608 /* ProductTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2C325C7D2D200A14608 /* ProductTV.swift */; };
+		F2C7B2C925C7D3DC00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C7B2C725C7D3DC00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2C7B2A725C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_iOS_Shiwani_C0790032.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C7B2AA25C7D0EB00A14608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C7B2AC25C7D0EB00A14608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2C7B2AE25C7D0EB00A14608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2C7B2B125C7D0EB00A14608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C7B2B425C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_FA_iOS_Shiwani_C0790032.xcdatamodel; sourceTree = "<group>"; };
 		F2C7B2B625C7D0ED00A14608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C7B2B925C7D0ED00A14608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C7B2BB25C7D0ED00A14608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C7B2C325C7D2D200A14608 /* ProductTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTV.swift; sourceTree = "<group>"; };
+		F2C7B2C825C7D3DC00A14608 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,11 @@
 			children = (
 				F2C7B2AA25C7D0EB00A14608 /* AppDelegate.swift */,
 				F2C7B2AC25C7D0EB00A14608 /* SceneDelegate.swift */,
-				F2C7B2AE25C7D0EB00A14608 /* ViewController.swift */,
 				F2C7B2B025C7D0EB00A14608 /* Main.storyboard */,
 				F2C7B2B625C7D0ED00A14608 /* Assets.xcassets */,
+				F2C7B2C325C7D2D200A14608 /* ProductTV.swift */,
 				F2C7B2B825C7D0ED00A14608 /* LaunchScreen.storyboard */,
+				F2C7B2C725C7D3DC00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld */,
 				F2C7B2BB25C7D0ED00A14608 /* Info.plist */,
 				F2C7B2B325C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld */,
 			);
@@ -140,10 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C7B2AF25C7D0EB00A14608 /* ViewController.swift in Sources */,
 				F2C7B2AB25C7D0EB00A14608 /* AppDelegate.swift in Sources */,
 				F2C7B2AD25C7D0EB00A14608 /* SceneDelegate.swift in Sources */,
+				F2C7B2C425C7D2D200A14608 /* ProductTV.swift in Sources */,
 				F2C7B2B525C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld in Sources */,
+				F2C7B2C925C7D3DC00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +355,16 @@
 				F2C7B2B425C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodel */,
 			);
 			currentVersion = F2C7B2B425C7D0EB00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodel */;
+			path = A2_FA_iOS_Shiwani_C0790032.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F2C7B2C725C7D3DC00A14608 /* A2_FA_iOS_Shiwani_C0790032.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2C7B2C825C7D3DC00A14608 /* ProductsModel.xcdatamodel */,
+			);
+			currentVersion = F2C7B2C825C7D3DC00A14608 /* ProductsModel.xcdatamodel */;
 			path = A2_FA_iOS_Shiwani_C0790032.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
